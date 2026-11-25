@@ -4,8 +4,8 @@ public class Main {
         Jugador jugadorDos = new Jugador("Martina");
 
         System.out.println("Datos iniciales:");
-        System.out.println("Jugador: " + jugadorUno.getNombre() + " | Nivel: " + jugadorUno.getNivel() + " | Puntos: " + jugadorUno.getPuntos());
-        System.out.println("Jugador: " + jugadorDos.getNombre() + " | Nivel: " + jugadorDos.getNivel() + " | Puntos: " + jugadorDos.getPuntos());
+        System.out.println("Jugador: " + jugadorUno.getNombre() + " Nivel: " + jugadorUno.getNivel() + " Puntos: " + jugadorUno.getPuntos());
+        System.out.println("Jugador: " + jugadorDos.getNombre() + " Nivel: " + jugadorDos.getNivel() + " Puntos: " + jugadorDos.getPuntos());
 
         jugadorUno.ganarPuntos(150);
         jugadorDos.ganarPuntos(200);
@@ -15,8 +15,8 @@ public class Main {
         jugadorDos.subirNivel();
 
         System.out.println("Datos finales:");
-        System.out.println("Jugador: " + jugadorUno.getNombre() + " | Nivel: " + jugadorUno.getNivel() + " | Puntos: " + jugadorUno.getPuntos());
-        System.out.println("Jugador: " + jugadorDos.getNombre() + " | Nivel: " + jugadorDos.getNivel() + " | Puntos: " + jugadorDos.getPuntos());
+        System.out.println("Jugador: " + jugadorUno.getNombre() + " Nivel: " + jugadorUno.getNivel() + " Puntos: " + jugadorUno.getPuntos());
+        System.out.println("Jugador: " + jugadorDos.getNombre() + " Nivel: " + jugadorDos.getNivel() + " Puntos: " + jugadorDos.getPuntos());
     }
 }
 

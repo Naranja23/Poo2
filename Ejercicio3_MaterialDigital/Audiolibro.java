@@ -5,7 +5,7 @@ public class Audiolibro extends MaterialDigital {
 
     @Override
     public void mostrarDescripcion() {
-        System.out.println("Título: " + getTitulo() + " - Se puede escuchar");
+        System.out.println("Título: " + getTitulo() );
     }
 }
 

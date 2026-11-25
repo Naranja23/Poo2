@@ -15,7 +15,7 @@ public class Preceptor extends Persona {
     }
 
     public void mostrarInformacion() {
-        System.out.println("Preceptor -> Nombre: " + getNombre() + " | Edad: " + getEdad() + " | Curso asignado: " + this.cursoAsignado);
+        System.out.println("Nombre: " + getNombre() + " Edad: " + getEdad() + " Curso asignado: " + this.cursoAsignado);
     }
 }
 

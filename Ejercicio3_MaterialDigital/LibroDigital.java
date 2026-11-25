@@ -5,7 +5,7 @@ public class LibroDigital extends MaterialDigital {
 
     @Override
     public void mostrarDescripcion() {
-        System.out.println("Título: " + getTitulo() + " - Se puede leer en pantalla");
+        System.out.println("Título: " + getTitulo() );
     }
 }
 

@@ -15,7 +15,7 @@ public class Docente extends Persona {
     }
 
     public void mostrarInformacion() {
-        System.out.println("Docente -> Nombre: " + getNombre() + " | Edad: " + getEdad() + " | Materia: " + this.materia);
+        System.out.println(" Nombre: " + getNombre() + " Edad: " + getEdad() + " Materia: " + this.materia);
     }
 }
 
