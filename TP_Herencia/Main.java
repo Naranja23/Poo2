@@ -2,12 +2,12 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //1---------------------------------------------------------------------
+        //---1---------------------------------------------------------------------
         
         Empleado empleado = new Empleado("Carlos López", 35, 85000.50);
         empleado.mostrarDatos();
 
-        empleado.setNombre("Carlos A. López");
+        empleado.setNombre("Carloz. López");
         empleado.setEdad(36);
         empleado.setSalario(92000.00);
         empleado.mostrarDatos();

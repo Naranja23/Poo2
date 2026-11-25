@@ -1,0 +1,21 @@
+public class Docente extends Persona {
+    private String materia;
+
+    public Docente(String nombre, int edad, String materia) {
+        super(nombre, edad);
+        this.materia = materia;
+    }
+
+    public String getMateria() {
+        return this.materia;
+    }
+
+    public void setMateria(String materia) {
+        this.materia = materia;
+    }
+
+    public void mostrarInformacion() {
+        System.out.println("Docente -> Nombre: " + getNombre() + " | Edad: " + getEdad() + " | Materia: " + this.materia);
+    }
+}
+
